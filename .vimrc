@@ -192,3 +192,42 @@ command! Bdi :call DeleteInactiveBufs()
   ":tabnew
 "endfunction
 "
+"
+"
+"
+"
+"VERSION INFO
+"VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Jan  2 2014 19:39:47)
+" Included patches: 1-52
+" Modified by pkg-vim-maintainers@lists.alioth.debian.org
+" Compiled by buildd@
+" Huge version with GTK2-GNOME GUI.  Features included (+) or not (-):
+" +acl             +clientserver    +cscope          +emacs_tags      +folding         +keymap          +menu            +mouse_netterm   +netbeans_intg   -python3         -sniff           +tcl             +virtualedit     +writebackup
+" +arabic          +clipboard       +cursorbind      +eval            -footer          +langmap         +mksession       +mouse_sgr       +path_extra      +quickfix        +startuptime     +terminfo        +visual          +X11
+" +autocmd         +cmdline_compl   +cursorshape     +ex_extra        +fork()          +libcall         +modify_fname    -mouse_sysmouse  +perl            +reltime         +statusline      +termresponse    +visualextra     -xfontset
+" +balloon_eval    +cmdline_hist    +dialog_con_gui  +extra_search    +gettext         +linebreak       +mouse           +mouse_urxvt     +persistent_undo +rightleft       -sun_workshop    +textobjects     +viminfo         +xim
+" +browse          +cmdline_info    +diff            +farsi           -hangul_input    +lispindent      +mouseshape      +mouse_xterm     +postscript      +ruby            +syntax          +title           +vreplace        +xsmp_interact
+" ++builtin_terms  +comments        +digraphs        +file_in_path    +iconv           +listcmds        +mouse_dec       +multi_byte      +printer         +scrollbind      +tag_binary      +toolbar         +wildignore      +xterm_clipboard
+" +byte_offset     +conceal         +dnd             +find_in_path    +insert_expand   +localmap        +mouse_gpm       +multi_lang      +profile         +signs           +tag_old_static  +user_commands   +wildmenu        -xterm_save
+" +cindent         +cryptv          -ebcdic          +float           +jumplist        +lua             -mouse_jsbterm   -mzscheme        +python          +smartindent     -tag_any_white   +vertsplit       +windows         +xpm
+"    system vimrc file: "$VIM/vimrc"
+"      user vimrc file: "$HOME/.vimrc"
+"  2nd user vimrc file: "~/.vim/vimrc"
+"       user exrc file: "$HOME/.exrc"
+"   system gvimrc file: "$VIM/gvimrc"
+"     user gvimrc file: "$HOME/.gvimrc"
+" 2nd user gvimrc file: "~/.vim/gvimrc"
+"     system menu file: "$VIMRUNTIME/menu.vim"
+"   fall-back for $VIM: "/usr/share/vim"
+" Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H -DFEAT_GUI_GTK  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.
+" 0 -I/usr/include/gio-unix-2.0/ -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz   -pthread -DORBIT2=1 -D_REENTRANT -I/us
+" r/include/libgnomeui-2.0 -I/usr/include/libart-2.0 -I/usr/include/gconf/2 -I/usr/include/gnome-keyring-1 -I/usr/include/libgnome-2.0 -I/usr/include/libbonoboui-2.0 -I/usr/include/libgnomecanvas-2.0 -I/usr/include/gtk-2.0 -I/usr/include/g
+" dk-pixbuf-2.0 -I/usr/include/gnome-vfs-2.0 -I/usr/lib/x86_64-linux-gnu/gnome-vfs-2.0/include -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr
+" /include/orbit-2.0 -I/usr/include/libbonobo-2.0 -I/usr/include/bonobo-activation-2.0 -I/usr/include/libxml2 -I/usr/include/pango-1.0 -I/usr/include/gail-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/atk-1.0 -I/usr/l
+" ib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/cairo -I/usr/include/gio-unix-2.0/ -I/usr/include/pixman-1 -I/usr/include/libpng12     -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -U_FORTIFY_SOUR
+" CE -D_FORTIFY_SOURCE=1     -I/usr/include/tcl8.6  -D_REENTRANT=1  -D_THREAD_SAFE=1  -D_LARGEFILE64_SOURCE=1
+" Linking: gcc   -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -rdynamic -Wl,-export-dynamic -Wl,-E  -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,--as-needed -o vim   -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0
+"  -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfontconfig -lgobject-2.0 -lglib-2.0 -lfreetype     -lgnomeui-2 -lSM -lICE -lbonoboui-2 -lgnomevfs-2 -lgnomecanvas-2 -lgnome-2 -lpopt -lbonobo-2 -lbonobo-activation -lORBit-2 -lart_lgpl_2 -lgtk-x11-
+" 2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfontconfig -lfreetype -lgconf-2 -lgthread-2.0 -lgmodule-2.0 -lgobject-2.0 -lglib-2.0   -lSM -lICE -lXpm -lXt -lX11 -lXdmcp -lSM
+" -lICE  -lm -ltinfo -lnsl  -lselinux  -lacl -lattr -lgpm -ldl  -L/usr/lib -llua5.2 -Wl,-E  -fstack-protector -L/usr/local/lib  -L/usr/lib/perl/5.18/CORE -lperl -ldl -lm -lpthread -lcrypt -L/usr/lib/python2.7/config-x86_64-linux-gnu -lpyth
+" on2.7 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions  -L/usr/lib/x86_64-linux-gnu -ltcl8.6 -ldl -lz -lpthread -lieee -lm -lruby-1.9.1 -lpthread -lrt -ldl -lcrypt -lm  -L/usr/lib
