@@ -88,6 +88,7 @@ map <silent> <leader>ls :source Session.vim<enter>
 map <silent> <leader>t :NERDTreeToggle<enter>
 map <silent> <leader>cd :cd %:p:h<enter>
 map <silent> <leader>o :CommandT<enter>
+map <silent> <leader>m :MaximizerToggle!<enter>
 
 "split settings
 "nnoremap <silent> <C-W> :q<CR>
