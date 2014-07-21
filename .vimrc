@@ -40,6 +40,8 @@ hi TabLine      ctermfg=Black  ctermbg=Green     cterm=NONE
 hi TabLineFill  ctermfg=Black  ctermbg=Green     cterm=NONE
 hi TabLineSel   ctermfg=White  ctermbg=DarkBlue  cterm=NONE
 
+highlight clear SignColumn   
+
 "rainbow paren congi
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
@@ -72,6 +74,7 @@ set cole=1
 hi clear Conceal
 hi Conceal cterm=NONE ctermfg=lightblue guifg=#8787ff
 
+set relativenumber
 "js syntax stuff
 
 
