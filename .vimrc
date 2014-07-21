@@ -8,9 +8,6 @@ let &t_Co=256
 "pathogen
 execute pathogen#infect()
 
-
-
-
 "basic stuff
 set nocompatible      " We're running Vim, not Vi!
 syntax on             " Enable syntax highlighting
@@ -28,6 +25,11 @@ set laststatus=2
 "Git things
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
+
+
+"todo
+
+de
 
 "syntastic
 let g:syntastic_check_on_open=1
@@ -89,6 +91,7 @@ map <silent> <leader>t :NERDTreeToggle<enter>
 map <silent> <leader>cd :cd %:p:h<enter>
 map <silent> <leader>o :CommandT<enter>
 map <silent> <leader>m :MaximizerToggle!<enter>
+map <silent> <leader>Q :wqa<enter>
 
 "split settings
 "nnoremap <silent> <C-W> :q<CR>
@@ -188,6 +191,11 @@ function! DeleteInactiveBufs()
     echomsg nWipeouts . ' buffer(s) wiped out'
 endfunction
 command! Bdi :call DeleteInactiveBufs()
+
+function! FindTodos()
+  :noautocmd vimgrep /TODO/ **/*
+endfunction
+command! Todo :call FindTodos()
 
 "my funcs
 "function MyRailsView(controller)
