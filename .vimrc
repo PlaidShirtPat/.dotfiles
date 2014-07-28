@@ -1,6 +1,6 @@
 "theme stuff
 syntax enable
-colors vividchalk
+colors jellybeans
 " colors molokai
 " let g:molokai_original = 0
 let &t_Co=256
