@@ -36,6 +36,8 @@ let g:syntastic_check_on_open=1
 
 "auto-pairs config
 let g:AutoPairsShortcutFastWrap = '<C-e>'
+map <silent> <leader>p :call AutoPairsToggle()<enter>
+
 
 "set tabline
 hi TabLine      ctermfg=Black  ctermbg=Green     cterm=NONE
@@ -105,23 +107,23 @@ nmap <silent> <leader>= :wincmd =<CR>
 set splitbelow
 set splitright
 
-"easy motion config
-let g:EasyMotion_smartcase = 1
-let g:EasyMotion_skipfoldedline = 0
+" "easy motion config
+" let g:EasyMotion_smartcase = 1
+" let g:EasyMotion_skipfoldedline = 0
 
-"set easymotion leader
-map <Leader> <Plug>(easymotion-prefix)
+" "set easymotion leader
+" map <Leader> <Plug>(easymotion-prefix)
 
-nmap <leader>s <Plug>(easymotion-s2)
-nmap <leader><leader>t <Plug>(easymotion-t2)
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
+" nmap <leader>s <Plug>(easymotion-s2)
+" nmap <leader><leader>t <Plug>(easymotion-t2)
+" map  / <Plug>(easymotion-sn)
+" omap / <Plug>(easymotion-tn)
 
-" These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
-" Without these mappings, `n` & `N` works fine. (These mappings just provide
-" different highlight method and have some other features )
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
+" " These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
+" " Without these mappings, `n` & `N` works fine. (These mappings just provide
+" " different highlight method and have some other features )
+" map  n <Plug>(easymotion-next)
+" map  N <Plug>(easymotion-prev)
 
 
 "scripts
